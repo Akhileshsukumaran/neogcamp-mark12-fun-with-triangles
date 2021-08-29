@@ -17,6 +17,7 @@ function CalculateScore(){
             score = score + 1;
         }
         index = index + 1;
+        console.log(index);
     }
     outputDiv.innerText = "Your Score is :" + score;
 }
