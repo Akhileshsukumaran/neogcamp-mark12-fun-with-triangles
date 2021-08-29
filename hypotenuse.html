@@ -4,23 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Calculate Hypotenuse</title>
 </head>
 <body>
 
-    <nav>
-        <a href="index.html">Is Triangle</a>
-        <a href="quiz.html">Quiz on triangle</a>
-        <a href="hypotenuse.html">Calculate hypotenuse</a>
+    <nav class="navigation-container">
+
+        <ul class="ul-nav">
+            <div class="nav-brand">Calculate Hypotenuse</div>
+            <li class="li-nav">
+                <a class="link" href="index.html">Is Triangle ?</a>
+            </li>
+            <li class="li-nav">
+                <a class="link" href="quiz.html">Quiz on Triangle</a>
+            </li>
+            <li class="li-nav">
+                <a class="link" href="hypotenuse.html">Calculate hypotenuse</a>
+            </li>
+        </ul>
+
     </nav>
     
-    <h1>Calculate Hypotenuse</h1>
-    <div>
-        <label>a =</label>
+    <div class="container">
+        <h1 class="h1-nav">Calculate Hypotenuse</h1>
+
+        <label class="lbl-angle-common">a :</label>
         <input type="number" class="side-input">
-        <label>b =</label>
+
+        <label class="lbl-angle-common">b :</label>
         <input type="number" class="side-input">
-        <button id="btn-hypotenuse">Calculate Hypotenuse</button>
+
+        <button id="btn-hypotenuse" class="btn-hypotenuse">Calculate Hypotenuse</button>
         <div id="output"></div>
     </div>
 

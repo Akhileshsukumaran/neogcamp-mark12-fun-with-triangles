@@ -1,10 +1,149 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --font-family : 'Roboto', sans-serif;
+    --primary-color : #22577A;
+    --secondary-color : #80ED99;
+}
+
+/* main contents */
+
+body{
+    margin: 0;
+    background-color: #38A3A5;
+    font-family: var(--font-family);
+}
+
 .container{
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 40%;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 2rem;
+    color: #22577A;
+    font-weight: bold;
+    background-color: #57CC99;
 }
 
-body{
-  
+.lbl-angle, .side-input{
+    border-style: none;
+    border-radius: 10px;
+    padding: .5rem;
+}
+
+
+.lbl-angle-common{
+    padding: 1rem;
+}
+
+#btn-check{
+    margin-top: 1rem;
+    border-style: none;
+    background-color: #22577A;
+    color: snow;
+    border-radius: 0.5rem;
+    width: 30%;
+    padding: 1rem;
+    align-self: center;
+}
+
+.btn-hypotenuse{
+    margin-top: 1rem;
+    border-style: none;
+    background-color: #22577A;
+    color: snow;
+    border-radius: 0.5rem;
+    width: 30%;
+    padding: 1rem;
+    align-self: center;
+}
+
+#btn-check:hover, .btn-hypotenuse:hover{
+    background-color: #7C83FD;
+}
+
+#div-output, #output, #div-output-quiz{
+    align-self: center;
+    padding: 1rem;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-quiz{
+    text-align: center;
+}
+
+.h1-form{
+    text-align: center;
+}
+
+.div-quiz{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+/* Nav bar */
+
+.ul-nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color: #22577A;
+}
+
+.li-nav{
+    float: right;
+    padding: 1rem;
+}
+
+.nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #80ED99;
+    padding: 1rem;
+    font-size: x-large;
+}
+
+.link{
+    text-decoration: none;
+    color: #80ED99;
+}
+
+/* footer */
+
+.footer{
+    background-color: #22577A;
+    padding: .5rem 1rem;
+    text-align: center;
+    color: #80ED99;
+    border-top-right-radius: 1rem;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+}
+
+.footer .link{
+    color: #80ED99;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 1rem;
 }

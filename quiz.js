@@ -1,8 +1,8 @@
 var quizForm = document.querySelector(".form-quiz");
-var submitBtn = document.querySelector("#btn-submit");
-var outputDiv = document.querySelector("#div-output");
+var submitBtn = document.querySelector("#btn-submit-form");
+var outputDiv = document.querySelector("#div-output-quiz");
 
-var correctAnswers = ["90°", "right angled"];
+var correctAnswers = ["90°", "right angled", "one right angle", "12, 16, 20", "Equilateral triangle", "85°", "10°", "a + b + c", "no", "45°"];
 
 
 

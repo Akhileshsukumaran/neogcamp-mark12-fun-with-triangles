@@ -5,35 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Is Triangle?</title>
+    <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    <title>Fun with Triangles</title>
 </head>
 <body>
-    
-    <nav>
-        <a href="index.html">Is Triangle</a>
-        <a href="quiz.html">Quiz on triangle</a>
-        <a href="hypotenuse.html">Calculate hypotenuse</a>
+
+    <nav class="navigation-container">
+
+        <ul class="ul-nav">
+            <div class="nav-brand">Fun with triangles</div>
+            <li class="li-nav">
+                <a class="link" href="index.html">Is Triangle ?</a>
+            </li>
+            <li class="li-nav">
+                <a class="link" href="quiz.html">Quiz on Triangle</a>
+            </li>
+            <li class="li-nav">
+                <a class="link" href="hypotenuse.html">Calculate hypotenuse</a>
+            </li>
+        </ul>
+
     </nav>
-    
+
     <div class="container">
 
-        <h1>Is Triangle?</h1>
+        <h1 class="h1-nav">Is Triangle?</h1>
 
-        <label for="lbl-angle-1">Angle 1:</label>
+        <label for="lbl-angle-1" class="lbl-angle-common">Angle 1:</label>
         <input type="number" id="lbl-angle-1" class="lbl-angle">
 
-        <label for="lbl-angle-2">Angle 2:</label>
+        <label for="lbl-angle-2"  class="lbl-angle-common">Angle 2:</label>
         <input type="number" id="lbl-angle-2" class="lbl-angle">
 
-        <label for="lbl-angle-3">Angle 3:</label>
+        <label for="lbl-angle-3" class="lbl-angle-common">Angle 3:</label>
         <input type="number" id="lbl-angle-3" class="lbl-angle">
 
-        <button id="btn-check">Check</button>
+        <button id="btn-check">CHECK</button>
 
         <div id="div-output"></div>
 
     </div>
 
+    <footer class="footer">
+        <div class="footer-header">
+            Social Media Presence
+        </div>
+        <ul class="footer-ul">
+            <li class="list-item-inline">
+                <i class="fab fa-github fa-2x"></i>
+                <a class="link" href="https:/github.com/akhileshsukumaran">GitHub</a>
+            </li>
+            <li class="list-item-inline">
+                <i class="fab fa-linkedin fa-2x"></i>
+                <a class="link" href="/">LinkedIn</a>
+            </li>
+        </ul>
+    </footer>
 
 
     <script src="app.js"></script>
