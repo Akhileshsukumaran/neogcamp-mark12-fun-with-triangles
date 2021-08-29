@@ -154,7 +154,7 @@ body{
     color: #80ED99;
 }
 
-.footer ul{
+.footer ul, .footer-index ul{
     padding-inline-start: 0px;
     list-style-type: none;
 }
@@ -168,3 +168,18 @@ body{
     display: inline;
     padding: 1rem;
 }
+
+
+.footer-index{
+    background-color: #22577A;
+    padding: .5rem 1rem;
+    text-align: center;
+    color: #80ED99;
+    border-top-right-radius: 1rem;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    position: fixed;
+}
+
+
