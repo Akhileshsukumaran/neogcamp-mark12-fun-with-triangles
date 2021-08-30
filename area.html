@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Calculate Hypotenuse</title>
+    <title>Area of triangle</title>
 </head>
 <body>
-
     <nav class="navigation-container">
 
         <ul class="ul-nav">
@@ -32,15 +31,15 @@
     </nav>
     
     <div class="container">
-        <h1 class="h1-nav">Calculate Hypotenuse</h1>
+        <h1 class="h1-nav">Calculate Area of a triangle</h1>
 
-        <label class="lbl-angle-common">a :</label>
-        <input type="number" class="side-input">
+        <label class="lbl-angle-common">Enter the base:</label>
+        <input type="number" class="common-input" id="base-input">
 
-        <label class="lbl-angle-common">b :</label>
-        <input type="number" class="side-input">
+        <label class="lbl-angle-common">Enter the height:</label>
+        <input type="number" class="common-input" id="height-input">
 
-        <button id="btn-hypotenuse" class="btn-hypotenuse">Calculate Hypotenuse</button>
+        <button id="btn-area" class="btn-area">Calculate Area</button>
         <div id="output"></div>
     </div>
 
@@ -60,6 +59,6 @@
         </ul>
     </footer>
 
-    <script src="hypotenuse.js"></script>
+    <script src="area.js"></script>
 </body>
 </html>
