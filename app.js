@@ -16,6 +16,10 @@ function IsTriangle()
     {
         outputDiv.innerText = "It is a triangle!";
     }
+    else if(totalSum == 0)
+    {
+        outputDiv.innerText = "Please enter valid angles!";
+    }
     else
     {
         outputDiv.innerText = "It is not a triangle!";
