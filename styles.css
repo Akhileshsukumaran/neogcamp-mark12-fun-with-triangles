@@ -30,6 +30,19 @@ body{
     background-color: #57CC99;
 }
 
+.container-index{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    color: #22577A;
+    font-weight: bold;
+    background-color: #57CC99;
+}
+
 .lbl-angle, .side-input, .common-input{
     border-style: none;
     border-radius: 10px;
